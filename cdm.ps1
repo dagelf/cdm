@@ -74,9 +74,23 @@ try {
             $FioArgs = @("--section=$TestName", "--size=$Size", "--ioengine=$Engine", "--output-format=json", "--output=$TempFile", "$FioFile")
             
             # Run FIO
-            & fio $FioArgs
+            $ExitCode = 1
+            if ($IsWindows -or ([System.Environment]::OSVersion.Platform -eq 'Win32NT')) {
+                # Attempt to run with RealTime priority on Windows
+                try {
+                     $Process = Start-Process -FilePath "fio" -ArgumentList $FioArgs -Wait -NoNewWindow -PassThru -Priority RealTime -ErrorAction Stop
+                     $ExitCode = $Process.ExitCode
+                } catch {
+                     Write-Warning "Failed to set RealTime priority. Falling back to default."
+                     & fio $FioArgs
+                     $ExitCode = $LASTEXITCODE
+                }
+            } else {
+                & fio $FioArgs
+                $ExitCode = $LASTEXITCODE
+            }
             
-            if ($LASTEXITCODE -eq 0 -and (Test-Path $TempFile)) {
+            if ($ExitCode -eq 0 -and (Test-Path $TempFile)) {
                 $TempContent = Get-Content $TempFile -Raw
                 if (-not [string]::IsNullOrWhiteSpace($TempContent)) {
                     # Handle potential garbage before JSON (fio oddities)

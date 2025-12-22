@@ -64,7 +64,7 @@ try {
             $TempFile = "temp_run_${TestName}.json"
             
             # Run FIO with --quiet
-            & fio --section="$TestName" --size="$Size" --quiet --output-format=json --output="$TempFile" "$FioFile"
+            & fio --section="$TestName" --size="$Size" --output-format=json --output="$TempFile" "$FioFile"
             
             if ($LASTEXITCODE -eq 0 -and (Test-Path $TempFile)) {
                 $TempContent = Get-Content $TempFile -Raw

@@ -37,7 +37,7 @@ for TEST_NAME in $TESTS; do
         TEMP_OUTPUT="temp_run_${TEST_NAME}.json"
         
         # Added --quiet to suppress stdout noise
-        if fio --section="$TEST_NAME" --size="$SIZE" --quiet --output-format=json --output="$TEMP_OUTPUT" "$FIO_FILE"; then
+        if fio --section="$TEST_NAME" --size="$SIZE" --output-format=json --output="$TEMP_OUTPUT" "$FIO_FILE"; then
             
             # Clean potential garbage at start of file (fio sometimes outputs text before json)
             # Only proceed if file exists and has content

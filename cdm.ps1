@@ -63,14 +63,16 @@ try {
 #            Write-Host "Running missing test: $TestName with size $Size"
             $TempFile = "temp_run_${TestName}.json"
             
-            # Construct FIO command arguments
-            $FioArgs = @("--section=$TestName", "--size=$Size", "--output-format=json", "--output=$TempFile", "$FioFile")
-            
-            # Use windowsaio engine on Windows
+            # Determine Engine
+            $Engine = "libaio"
             if ($IsWindows -or ([System.Environment]::OSVersion.Platform -eq 'Win32NT')) {
-                $FioArgs += "--ioengine=windowsaio"
+                $Engine = "windowsaio"
             }
 
+            # Construct FIO command arguments
+            # Note: Engine is passed as a command line argument which typically overrides/supplements job file
+            $FioArgs = @("--section=$TestName", "--size=$Size", "--ioengine=$Engine", "--output-format=json", "--output=$TempFile", "$FioFile")
+            
             # Run FIO
             & fio $FioArgs
             

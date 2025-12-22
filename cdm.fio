@@ -1,5 +1,4 @@
 [global]
-ioengine=libaio
 direct=1
 thread=1
 group_reporting=1

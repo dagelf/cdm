@@ -63,8 +63,16 @@ try {
 #            Write-Host "Running missing test: $TestName with size $Size"
             $TempFile = "temp_run_${TestName}.json"
             
-            # Run FIO with --quiet
-            & fio --section="$TestName" --size="$Size" --output-format=json --output="$TempFile" "$FioFile"
+            # Construct FIO command arguments
+            $FioArgs = @("--section=$TestName", "--size=$Size", "--output-format=json", "--output=$TempFile", "$FioFile")
+            
+            # Use windowsaio engine on Windows
+            if ($IsWindows -or ([System.Environment]::OSVersion.Platform -eq 'Win32NT')) {
+                $FioArgs += "--ioengine=windowsaio"
+            }
+
+            # Run FIO
+            & fio $FioArgs
             
             if ($LASTEXITCODE -eq 0 -and (Test-Path $TempFile)) {
                 $TempContent = Get-Content $TempFile -Raw

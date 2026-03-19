@@ -1,0 +1,129 @@
+
+--- Run Date: 12/22/2025 10:31:55 ---
+
+--- Run Date: 12/22/2025 10:32:02 ---
+SEQ1M-Q8T1-Read          	           3413	              0	           3413	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           6564	              0	           6564	              0	              0
+RND4K-Q32T16-Read        	           3124	              0	         799829	              0	              0	              0
+RND4K-Q32T16-Write       	              0	           2288	              0	         585797	              0	              0
+RND4K-Q1T1-Read          	             62	              0	          15936	              0	              0	              0
+RND4K-Q1T1-Write         	              0	            154	              0	          39456	              0	              0
+RND4K-Q1T1-Lat-Read      	             62	              0	          15923	              0	             62	              0
+RND4K-Q1T1-Lat-Write     	              0	            174	              0	          44545	              0	             22
+
+--- Run Date: 12/22/2025 10:37:29 ---
+SEQ1M-Q8T1-Read          	           1803	              0	           1803	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           5818	              0	           5818	              0	              0
+RND4K-Q32T16-Read        	           3151	              0	         806597	              0	              0	              0
+RND4K-Q32T16-Write       	              0	           2298	              0	         588261	              0	              0
+RND4K-Q1T1-Read          	             64	              0	          16284	              0	              0	              0
+RND4K-Q1T1-Write         	              0	            156	              0	          39961	              0	              0
+RND4K-Q1T1-Lat-Read      	             62	              0	          15951	              0	             62	              0
+RND4K-Q1T1-Lat-Write     	              0	            168	              0	          42970	              0	             23
+
+--- Run Date: 03/19/2026 10:26:45 ---
+
+--- Run Date: 03/19/2026 12:51:20 ---
+SEQ1M-Q8T1-Read          	            906	              0	            906	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           6095	              0	           6095	              0	              0
+RND4K-Q32T16-Read        	           3095	              0	         792275	              0	              0	              0
+RND4K-Q32T16-Write       	              0	           2299	              0	         588426	              0	              0
+RND4K-Q1T1-Read          	             62	              0	          15782	              0	              0	              0
+RND4K-Q1T1-Write         	              0	            173	              0	          44236	              0	              0
+RND4K-Q1T1-Lat-Read      	             64	              0	          16268	              0	             61	              0
+RND4K-Q1T1-Lat-Write     	              0	            167	              0	          42759	              0	             23
+
+--- Run Date: 03/19/2026 12:59:24 ---
+SEQ1M-Q8T1-Read          	           6737	              0	           6737	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           6564	              0	           6564	              0	              0
+RND4K-Q32T16-Read        	           3140	              0	         803814	              0	              0	              0
+RND4K-Q32T16-Write       	              0	           2328	              0	         595951	              0	              0
+RND4K-Q1T1-Read          	             64	              0	          16349	              0	              0	              0
+RND4K-Q1T1-Write         	              0	            156	              0	          39900	              0	              0
+RND4K-Q1T1-Lat-Read      	             66	              0	          16773	              0	             59	              0
+RND4K-Q1T1-Lat-Write     	              0	            162	              0	          41450	              0	             24
+
+--- Run Date: 03/19/2026 13:00:50 ---
+
+--- Run Date: 03/19/2026 13:00:56 ---
+SEQ1M-Q8T1-Read          	           1803	              0	           1803	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           6564	              0	           6564	              0	              0
+RND4K-Q32T16-Read        	           3011	              0	         770728	              0	              0	              0
+
+--- Run Date: 03/19/2026 13:01:09 ---
+SEQ1M-Q8T1-Read          	           1803	              0	           1803	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           6564	              0	           6564	              0	              0
+
+--- Run Date: 03/19/2026 13:01:34 ---
+RND4K-Q32T16-Read        	           3105	              0	         794978	              0	              0	              0
+RND4K-Q32T16-Write       	              0	           2323	              0	         594684	              0	              0
+RND4K-Q1T1-Read          	             66	              0	          16886	              0	              0	              0
+RND4K-Q1T1-Write         	              0	            166	              0	          42425	              0	              0
+RND4K-Q1T1-Lat-Read      	             62	              0	          15837	              0	             62	              0
+RND4K-Q1T1-Lat-Write     	              0	            169	              0	          43309	              0	             23
+
+--- Run Date: 03/19/2026 13:07:17 ---
+
+--- Run Date: 03/19/2026 13:09:35 ---
+
+--- Run Date: 03/19/2026 13:09:43 ---
+SEQ1M-Q8T1-Read          	           4339	              0	           4339	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           6400	              0	           6400	              0	              0
+RND4K-Q32T16-Read        	           3140	              0	         803814	              0	              0	              0
+RND4K-Q32T16-Write       	              0	           2385	              0	         610436	              0	              0
+RND4K-Q1T1-Read          	             62	              0	          15936	              0	              0	              0
+RND4K-Q1T1-Write         	              0	            164	              0	          42024	              0	              0
+RND4K-Q1T1-Lat-Read      	             62	              0	          15865	              0	             62	              0
+RND4K-Q1T1-Lat-Write     	              0	            168	              0	          42908	              0	             23
+
+--- Run Date: 03/19/2026 13:11:18 ---
+SEQ1M-Q8T1-Read          	           3368	              0	           3368	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           6564	              0	           6564	              0	              0
+RND4K-Q32T16-Read        	           3067	              0	         785156	              0	              0	              0
+RND4K-Q32T16-Write       	              0	           2348	              0	         601075	              0	              0
+RND4K-Q1T1-Read          	             64	              0	          16335	              0	              0	              0
+RND4K-Q1T1-Write         	              0	            171	              0	          43676	              0	              0
+RND4K-Q1T1-Lat-Read      	             62	              0	          15779	              0	             62	              0
+RND4K-Q1T1-Lat-Write     	              0	            169	              0	          43137	              0	             23
+
+--- Run Date: 03/19/2026 13:17:21 ---
+
+--- Run Date: 03/19/2026 13:17:48 ---
+SEQ1M-Q8T1-Read          	           6737	              0	           6737	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           6169	              0	           6169	              0	              0
+RND4K-Q32T16-Read        	           3123	              0	         799524	              0	              0	              0
+RND4K-Q32T16-Write       	              0	           2342	              0	         599529	              0	              0
+RND4K-Q1T1-Read          	             64	              0	          16380	              0	              0	              0
+RND4K-Q1T1-Write         	              0	            157	              0	          40305	              0	              0
+RND4K-Q1T1-Lat-Read      	             69	              0	          17673	              0	             56	              0
+RND4K-Q1T1-Lat-Write     	              0	            172	              0	          44122	              0	             22
+
+--- Run Date: 03/19/2026 13:18:59 ---
+
+--- Run Date: 19 Mar 2026 13:19:24 ---
+
+--- Run Date: Thu Mar 19 13:24:22 SAST 2026 ---
+
+--- Run Date: Thu Mar 19 13:24:33 SAST 2026 ---
+
+--- Run Date: Thu Mar 19 13:24:45 SAST 2026 ---
+SEQ1M-Q8T1-Read          	            427	              0	            427	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	            372	              0	            372	              0	              0
+RND4K-Q32T16-Read        	            219	              0	          56098	              0	              0	              0
+RND4K-Q32T16-Write       	              0	            203	              0	          51843	              0	              0
+RND4K-Q1T1-Read          	             55	              0	          13978	              0	              0	              0
+RND4K-Q1T1-Write         	              0	             55	              0	          14136	              0	              0
+RND4K-Q1T1-Lat-Read      	             56	              0	          14314	              0	             69	              0
+RND4K-Q1T1-Lat-Write     	              0	             53	              0	          13535	              0	             73
+
+--- Run Date: 03/19/2026 14:38:25 ---
+
+--- Run Date: 03/19/2026 14:38:43 ---
+SEQ1M-Q8T1-Read          	           3413	              0	           3413	              0	              0	              0
+SEQ1M-Q8T1-Write         	              0	           6169	              0	           6169	              0	              0
+RND4K-Q32T16-Read        	           2868	              0	         734297	              0	              0	              0
+RND4K-Q32T16-Write       	              0	           2203	              0	         563902	              0	              0
+RND4K-Q1T1-Read          	             63	              0	          16037	              0	              0	              0
+RND4K-Q1T1-Write         	              0	            158	              0	          40554	              0	              0
+RND4K-Q1T1-Lat-Read      	             62	              0	          15826	              0	             62	              0
+RND4K-Q1T1-Lat-Write     	              0	            165	              0	          42316	              0	             23
